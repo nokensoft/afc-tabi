@@ -1,6 +1,98 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Poppins:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;900&family=Poppins:wght@200;400;600&display=swap');
 
 :root {
+   --Default-color: #043A53;
+   --Primary-color: #F0B73F;
+   --Secondary-color: #12141D;
+   --Gray-Color : #92A7B0;
+   --White-nativ:#D7E0E5;
+   --white-bg-hero : #F2F5F6;
 
+}
+
+:root {
+   --font-default: "Poppins", sans-serif;
+   --font-primary: "Lato", sans-serif;
+   --font-secondary: "Raleway", sans-serif;
+ }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+}
+
+/* .container-fluid{
+   margin: 0;
+   padding: 0;
+} */
+
+#hero{
+   background-color: var(--white-bg-hero);
+}
+
+#hero span{
+   color: var(--Primary-color);
+}
+
+#hero h1{
+   font-weight: 900;
+}
+
+#hero p{
+   font-family: var(--font-default);
+   font-size: 15px;
+}
+
+#hero .decor-left,
+#hero .decor-right{
+   display: flex;
+   justify-content: center;
+}
+
+#hero .grup-btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#hero .grup-btn .btn-started{
+   background-color: var(--Default-color);
+   border-radius: 30px;
+   color: var(--White-nativ);
+   text-decoration: none;
+   padding: 15px;
+   font-family: var(--font-primary);
+   font-weight: 600;
+   box-shadow: 2px 10px 20px var(--Default-color);
+   color: #FFF;
+}
+
+#hero .grup-btn .btn-play{
+  margin-left: 60px;
+  background-color: var(--Default-color);
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+
+}
+
+#hero .grup-btn .btn-play .play{
+   padding: 10px;
+   color: var(--White-nativ);
+ 
+}
+
+#hero .grup-btn p{
+  margin-left: 12px;
+}
+
+@media screen and (max-witdh:990px){
+   #hero .row-reverse{
+      flex-direction: column-reverse;
+   }
 }
   
