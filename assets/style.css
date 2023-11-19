@@ -174,7 +174,8 @@ nav{
 /* style service */
 
 #subarash .card-service img{
-   width: 400px;
+ max-width: 100%;
+ width: 450px;
    
 }
 
@@ -268,6 +269,32 @@ nav{
 
 #service .card-left-service{
    display: none;
+}
+
+#subarash .card-service .card-title{
+   margin-top:15px;
+   padding:0;
+}
+
+#subarash .card-service p{
+   padding:0;
+   font-size:19px;
+}
+
+#subarash .card-service h3{
+   margin:0;
+   padding:0;
+   font-size:30px;
+}
+
+#subarash a{
+   margin:0;
+   padding:0;
+   font-size:17px;
+}
+
+#subarash span{
+   font-size :25px;
 }
 
 /* end screen service */
