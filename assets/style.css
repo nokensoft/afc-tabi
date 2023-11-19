@@ -29,12 +29,59 @@ h6 {
   font-family: var(--font-default);
 }
 
+/* Style nav */
+
+.main-nav{
+   margin-top: 20px;
+}
+
+.main-nav .logo h1{
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.wrapper-nav{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 30px;
+   height: 100%;
+  }
+
+  .wrapper-nav li {
+   list-style: none;
+  }
+
+  .wrapper-nav a {
+   position: relative; /* Diperlukan untuk menampilkan efek garis bawah */
+   text-decoration: none; /* Hapus garis bawah default dari tautan */
+   color: #333; /* Warna teks tautan */
+   transition: color 0.3s, border-bottom-color 0.3s; /* Efek transisi saat hover */
+ }
+
+  .wrapper-nav li a{
+   color: #000;
+   text-decoration: none;
+   font-size: 17px;
+   text-transform:uppercase;
+   font-size: 15px;
+  }
+
+  .wrapper-nav a:hover{
+   border-bottom: 2px solid var(--Default-color); /* Garis bawah oranye saat dihover */
+  }
+
+
+
+/* End Nav */
+
 #hero{
    background-image: url("../assets/img/bg-hero.svg");
    background-size: cover;
    background-position: center;
    max-width: 100%;
-   
 }
 
 #hero .left-content{
@@ -110,6 +157,19 @@ h6 {
 @media (max-width:992px){
    #hero .row-reverse{
       flex-direction: column-reverse;
+   }
+
+   .main-nav .wrapper-nav{
+      display: none;
+   }
+
+   .humberger {
+      width: 50px;
+      position: fixed;
+      right: 20px;
+      top: 10px;
+      cursor: pointer;
+      z-index: 9999;
    }
 
    #hero .decor-hero-right {
