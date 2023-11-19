@@ -58,8 +58,8 @@ h6 {
 }
 
 #hero .left-content .btn-rounded{
-   width: 43px;
-   height: 42px;
+   width: 52px;
+   height: 52px;
    background-color: var(--Primary-color);
    border-radius: 50%;
    display: flex;
@@ -71,19 +71,11 @@ h6 {
 
 #hero .left-content .btn-hero{
    display: flex;
-   justify-content: center;
+   justify-content: flex-start;
    align-items: center;
+   width: 100%;
 }
 
-#hero .btn-hero .btn{
-   background-color: var(--Default-color);
-   border: 0px solid;
-   border-radius: 20px;
-   font-size: 15px;
-   padding: 12px;
-   width: 130px;
-   height: 48px;
-}
 
 #hero .left-content .btn-play{
    display: flex;
@@ -122,20 +114,19 @@ h6 {
       justify-content:center;
       align-items:center;
   }
+
+  #hero .left-content{
+   padding-top: 40px;
+  }
   
   #hero .decor-hero-right img{
       width :500px;
       max-height:100%;
+      margin: 0;
   }
-  
-  #hero .left-content h1{
-      font-size :100px;
-      line-height :90px;
-  }
-  
+
   #hero .left-content p{
-      font-size :23px;
-      line-height : 40px;
+     margin-top: 15px;
   }
+
 }
-  
