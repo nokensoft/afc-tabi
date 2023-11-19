@@ -3,8 +3,9 @@
 :root {
    --Default-color: #FFC107;
    --Primary-color: #000000;
-   --Secondary-color: #F8F8F8;
+   --Secondary-color: #Fff;
    --blue-color : #1976D2;
+   --dark:#b9b9b9;
 
 }
 
@@ -150,8 +151,43 @@ h6 {
  right: 0;
  top: 0;
  z-index: -999;
-   
 }
+
+/* style service */
+   #service .card-service{
+      background-color: var(--Secondary-color);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0px 0px 4px 0px var(--dark);
+   }
+
+   #service .card-service .card-title{
+      display: flex;
+      justify-content: left;
+      align-items: center;
+   }
+
+   #service .card-service .card-title img{
+      max-width: 100%;
+      margin-right: 12px;
+      height: 40px;
+      border-radius: 10px;
+   }
+
+   #service .card-service .card-title h3{
+     font-family: var(--font-default);
+     font-size: 20px;
+     font-weight: 600;
+     margin-top: 7px;
+   }
+
+   #service .card-service p{
+      font-size: 15px;
+      margin-top: 7px;
+    }
+
+
+/* end service */
 
 
 @media (max-width:992px){
