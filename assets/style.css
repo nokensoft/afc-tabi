@@ -137,3 +137,15 @@ h6 {
 }
 
 }
+
+@media (max-width:434px){
+   #hero .left-content .main-text h1{
+      font-size :50px;
+}
+
+#hero .left-content p{
+  margin-top :0;
+}
+
+
+}
