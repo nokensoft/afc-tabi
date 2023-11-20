@@ -432,6 +432,44 @@ nav{
    display: flex;
 }
 
+#slider .grup-content p {
+   text-align:left;
+   font-size:20px
+}
+
+#hero .left-content {
+  padding:0;
+}
+
+#sensei .card-service img{
+   height:355px;
+   margin-left:130px;
+}
+
+#slider #tm{
+  margin-top:0px
+}
+
+#feedback img{
+   width:600px;
+   height:600px;
+   margin-bottom:20px;
+   border-radius:20px;
+   box-shadow :1px 0px 5px 0px gray;
+}
+
+#feedback p{
+   font-size : 20px
+}
+
+#contact .sub-contact{
+   margin:0;
+   width:50%;
+   padding:6px;
+}
+
+
+
 /* end screen service */
 
 }
