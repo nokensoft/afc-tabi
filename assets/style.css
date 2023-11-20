@@ -460,9 +460,9 @@ nav{
    box-shadow :1px 0px 1px 0px gray;
 } */
 
-#feedback p{
+/* #feedback p{
    font-size : 20px
-}
+} */
 
 #contact .sub-contact{
    margin:0;
@@ -492,6 +492,20 @@ nav{
    max-width: 100%;
    width: 100%;
 }
+
+/* #slider .content .col-lg-2,
+#slider .content .col-lg-10{
+   padding: 0;
+   margin: 0;
+} */
+
+/* #slider .grup-content .content p,
+#feedback .content p,
+#slider .grup-content .content img,
+#feedback .content img{
+   border: 1px solid #000;
+} */
+
 
 #slider .nav-btn{
    display: none;
