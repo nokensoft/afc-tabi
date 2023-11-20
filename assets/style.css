@@ -505,16 +505,59 @@ nav{
    #foother .text-end {
       font-size:15px;
   }
+
+  #foother .colum {
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+   border:1px solid #000;
+   
 }
 
-@media (max-width:434px){
+#foother .colum .col {
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   padding:10px;
+}
+
+#foother .colum .col svg {
+  margin-left:5px;
+}
+
+}
+
+@media (max-width:435px){
    #hero .left-content .main-text h1{
-      font-size :50px;
+         font-size :50px;
+   }
+
+   #hero .left-content p{
+      margin-top :0;
+   }
 }
 
-#hero .left-content p{
-  margin-top :0;
+@media (max-width:419px){
+   #contact .sub-contact{
+      padding:0;
+      width:70%;
+    margin-left:50px;
+}
 }
 
+@media (max-width:363px){
+   #contact .sub-contact{
+      padding:0;
+      width:80%;
+    margin-left:50px;
+}
+}
 
+@media (max-width:321px){
+   #contact .sub-contact{
+      padding:0;
+      width:90%;
+    margin-left:50px;
+}
 }
