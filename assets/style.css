@@ -422,7 +422,7 @@ nav{
 
 #subarash span,
 #utsukushhii span,
-#senseii span{
+#sensei span{
    font-size :25px;
 }
 
@@ -441,21 +441,21 @@ nav{
   padding:0;
 }
 
-#sensei .card-service img{
+/* #sensei .card-service img{
    height:355px;
    margin-left:130px;
-}
+} */
 
 #slider #tm{
   margin-top:0px
 }
 
 #feedback img{
-   width:600px;
-   height:600px;
+   width:500px;
+   height:500px;
    margin-bottom:20px;
    border-radius:20px;
-   box-shadow :1px 0px 5px 0px gray;
+   box-shadow :1px 0px 1px 0px gray;
 }
 
 #feedback p{
@@ -472,6 +472,26 @@ nav{
 
 /* end screen service */
 
+}
+
+@media(max-width:522px){
+   #contact .sub-contact{
+      padding:0;
+  }
+}
+
+@media(max-width:498px){
+   #contact .sub-contact{
+      padding:0;
+      width:60%;
+    margin-left:50px;
+  }
+}
+
+@media(max-width:460px){
+   #foother .text-end {
+      font-size:15px;
+  }
 }
 
 @media (max-width:434px){
