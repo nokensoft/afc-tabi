@@ -250,13 +250,15 @@ nav{
 }
 
 #slider .grup-content .content img,
-#slider .grup-content .content{
+#slider .grup-content .content,
+#feedback .content img{
    max-width: 100%;
    width: 400px;
 }
 
 #slider .grup-content .content img,
-#slider .grup-content .content p{
+#slider .grup-content .content p,
+#feedback .content p{
   padding: 4px;
 }
 
@@ -266,12 +268,16 @@ nav{
 
 }
 
-#feedback img{
+#slider .nav-btn{
+   display: none;
+}
+
+/* #feedback img{
    max-width: 100%;
    width: 200px;
    height: 170px;
    max-height: 100%;
-}
+} */
 
 
 
@@ -450,13 +456,13 @@ nav{
   margin-top:0px
 }
 
-#feedback img{
+/* #feedback img{
    width:500px;
    height:500px;
    margin-bottom:20px;
    border-radius:20px;
    box-shadow :1px 0px 1px 0px gray;
-}
+} */
 
 #feedback p{
    font-size : 20px
@@ -473,7 +479,8 @@ nav{
    flex-direction: column;
 }
 
-#slider .grup-content .content{
+#slider .grup-content .content,
+#feedback .content{
    background-color: var(--white-default);
    border-radius: 10px;
    margin: 12px;
