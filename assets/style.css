@@ -174,11 +174,9 @@ nav{
 
 /* style service */
 #subarash .card-service img,
-#utsukushhii .card-service img,
-#sensei .card-service img{
+#utsukushhii .card-service img{
  max-width: 100%;
  width: 450px;
-   
 }
 
 #subarash .card-service,
@@ -201,6 +199,19 @@ nav{
   width: 185px;
   text-align: center;
 }
+
+#cert .img-cert{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cert .img-cert img{
+   box-shadow: 1px 0px 3px 0px var(--Primary-btn-color);
+   margin: 10px;
+   max-width: 100%;
+   border-radius: 5px;
+ }
 /* end service */
 
 /* utsukushhii style */
