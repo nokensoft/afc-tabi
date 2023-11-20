@@ -230,9 +230,17 @@ nav{
 }
 
 #slider {
-   background-color: var(--smoke-color);
+   background-color: var(--Secondary-color);
 }
 /* end sensei */
+
+#contact{
+   background-color: var(--Secondary-color);
+}
+
+#foother{
+   background-color: var(--Primary-btn-color);
+}
 
 
 #slider .grup-content{
@@ -265,9 +273,7 @@ nav{
    max-height: 100%;
 }
 
-#contact{
-   background-color: var(--Primary-btn-color);
-}
+
 
 #contact .sub-contact svg,
 #contact #sub-contact svg{
