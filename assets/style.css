@@ -468,6 +468,19 @@ nav{
    padding:6px;
 }
 
+#slider .grup-content{
+   display: flex;
+   flex-direction: column;
+}
+
+#slider .grup-content .content{
+   background-color: var(--white-default);
+   border-radius: 10px;
+   margin: 12px;
+   padding: 12px;
+   box-shadow: 1px 0px 10px 0px #b4b4b498;
+}
+
 
 
 /* end screen service */
