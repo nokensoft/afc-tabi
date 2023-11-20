@@ -258,7 +258,7 @@ nav{
 
 #slider .grup-content .content img,
 #slider .grup-content .content p,
-#feedback .content p{
+#feedback .content{
   padding: 4px;
 }
 
@@ -266,10 +266,6 @@ nav{
   font-size: 15px;
   margin-top: 10px;
 
-}
-
-#slider .nav-btn{
-   display: none;
 }
 
 /* #feedback img{
@@ -483,9 +479,22 @@ nav{
 #feedback .content{
    background-color: var(--white-default);
    border-radius: 10px;
+   max-width: 100%;
+   width: 100%;
    margin: 12px;
    padding: 12px;
    box-shadow: 1px 0px 10px 0px #b4b4b498;
+}
+
+#slider .grup-content .content img,
+#feedback .content img{
+   border-radius: 10px;
+   max-width: 100%;
+   width: 100%;
+}
+
+#slider .nav-btn{
+   display: none;
 }
 
 
