@@ -398,6 +398,18 @@ nav{
    display: none;
 }
 
+#cert .img-cert{
+   display: flex;
+   flex-direction: column;
+}
+
+#cert .img-cert img{
+   max-width: 100%;
+   width: 100%;
+   border-radius: 12px;
+   box-shadow: 1px 0 10px 0px var(--Default-color);
+}
+
 #subarash .card-service .card-title,
 #utsukushhii .card-service .card-title,
 #sensei .card-service .card-title{
