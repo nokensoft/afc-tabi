@@ -406,7 +406,7 @@ nav{
 #cert .img-cert img{
    max-width: 100%;
    width: 100%;
-   border-radius: 12px;
+   border-radius: 10px;
    box-shadow: 1px 0 10px 0px var(--Default-color);
 }
 
