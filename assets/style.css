@@ -255,6 +255,16 @@ nav{
    align-items: center;
 }
 
+#feedback .content{
+   display: flex;
+   justify-content: center;
+}
+
+#feedback .content p{
+   text-align: justify;
+   margin-left: 12px;
+}
+
 #slider .grup-content .content img,
 #slider .grup-content .content,
 #feedback .content img{
@@ -268,9 +278,10 @@ nav{
   padding: 4px;
 }
 
-#slider .grup-content .content p{
+#slider .grup-content .content p,
+#feedback .content p{
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: 15px;
 
 }
 
@@ -521,7 +532,7 @@ nav{
 #feedback .content p,
 #slider .grup-content .content img,
 #feedback .content img{
-   border: 1px solid #000;
+  margin-top: 6px;
 } */
 
 
