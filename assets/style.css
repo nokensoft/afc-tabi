@@ -90,12 +90,12 @@ nav{
   }
 
   /* Tambahkan gaya untuk menu aktif */
-.wrapper-nav a:active {
-   font-weight: 600;
-   border-bottom: 2px solid var(--Default-color); /* Garis bawah oranye saat dihover */
-   
+  .wrapper-nav li a:active,
+.wrapper-nav li a:focus {
+    font-weight: bold;
+    text-decoration: underline;
+    /* Atur efek sesuai keinginan Anda */
 }
-
 
 
 
