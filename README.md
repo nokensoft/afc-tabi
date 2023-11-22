@@ -30,13 +30,11 @@ FOOTER <br>
 🏷️ icon sosial media taru dibawah tombol 'hubungi sekarang' <br>
 🏷️ copyright pasang di tengah <br>
 
-
-
 # DONE
-✅ ... <br>
-✅ ... <br>
-✅ ... <br>
-✅ ... <br>
+✅ Nav <br>
+✅ Produk <br>
+✅ Sertifikat <br>
+✅ Foother <br>
 ✅ Slicing wireframe ke desain HTML <br>
 ✅ Setup domain & hosting <br>
 ✅ Analisa dan perancangan wireframe <br>

@@ -34,10 +34,20 @@ h6 {
 /* Style nav */
 nav{
    background-color: var(--Primary-btn-color);
+   position: fixed;
+   width: 100%;
 }
+
 .main-nav .logo h1{
    font-size: 20px;
    font-weight: 600;
+}
+
+.main-nav #xcontact{
+   background-color: var(--Primary-btn-color);
+   border: 2px solid var(--Default-color);
+   padding: 5px;
+   border-radius: 5px;
 }
 
 .produk .right-item .row img{
@@ -340,7 +350,7 @@ nav{
 }
 
 #foother p{
-   text-align: end;
+   text-align: center;
 }
 
 #carouselExampleIndicators{
