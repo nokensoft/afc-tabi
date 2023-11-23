@@ -198,7 +198,8 @@ nav{
 
 /* style service */
 #subarash .card-service img,
-#utsukushhii .card-service img{
+#utsukushhii .card-service img,
+#sensei .card-service img{
  max-width: 100%;
  width: 450px;
 }
