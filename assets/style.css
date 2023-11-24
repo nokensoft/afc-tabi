@@ -68,7 +68,7 @@ nav{
   width: 100%;
 } */
 
-.produk .right-item .row img{
+.produk .right-item .row .content img{
   width: 40px;
 }
 
@@ -578,6 +578,15 @@ nav{
    display: none;
 }
 
+.produk .right-item .row .content img{
+   width: 200px;
+   max-width: 100%;
+ }
+
+ .produk .right-item .row .content label{
+   font-size: 30px;
+  
+ }
 
 
 /* end screen service */
