@@ -101,17 +101,7 @@ nav{
    font-size: 15px;
   }
 
-.wrapper-nav a:hover{
-   border-bottom: 2px solid var(--Default-color); /* Garis bawah oranye saat dihover */
-  }
 
-  /* Tambahkan gaya untuk menu aktif */
-  .wrapper-nav li a:active,
-.wrapper-nav li a:focus {
-    font-weight: bold;
-    text-decoration: underline;
-    /* Atur efek sesuai keinginan Anda */
-}
 
 
 
@@ -383,7 +373,32 @@ nav{
    text-align: center;
 }
 
-#carouselExampleIndicators{
+/* CSS Botton Chat Right */
+.chat-button {
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+   z-index: 999; /* Menempatkan tombol di atas konten lainnya */
+   cursor: pointer;
+}
+
+/* Gaya tambahan untuk menyesuaikan tampilan tombol chat */
+.chat-button svg {
+   width: 50px; /* Sesuaikan ukuran ikon chat */
+   height: auto;
+   border-radius: 50%; /* Agar ikon chat menjadi bundar */
+   color: var(--white-default);
+   background-color: green;
+   padding: 12px;
+}
+
+.chat-button a {
+   text-decoration: none;
+   color: #000;
+}
+
+
+/* #carouselExampleIndicators{
    max-width: 100%;
    width: 100%;
    border:1px solid #000;
@@ -396,7 +411,7 @@ nav{
 #carouselExampleIndicators .content img{
    margin: 0;
    padding: 0;
-}
+} */
 
 
 
