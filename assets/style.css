@@ -331,6 +331,11 @@ nav{
 
 }
 
+#feedback .content label{
+   margin-left: 12px;
+   font-weight: 600;
+}
+
 
 #contact .sub-contact svg,
 #contact #sub-contact svg{
