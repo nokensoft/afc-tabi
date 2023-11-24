@@ -62,11 +62,7 @@ nav{
    text-align: center;
 }
 
-/* .produk .right-item .row .content label{
-  font-size: 15px;
-  text-align: justify;
-  width: 100%;
-} */
+
 
 .produk .right-item .row .content img{
   width: 40px;
@@ -100,6 +96,13 @@ nav{
    text-transform:uppercase;
    font-size: 15px;
   }
+
+  .wrapper-nav li a:hover{
+   font-weight: 700;
+   border-bottom: 2px solid var(--Default-color);
+ 
+  }
+
 
 
 
