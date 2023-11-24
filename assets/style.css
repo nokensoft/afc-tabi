@@ -605,7 +605,10 @@ nav{
 
  .produk .right-item .row .content label{
    font-size: 30px;
-  
+ }
+
+ .chat-button{
+   display: none;
  }
 
 
