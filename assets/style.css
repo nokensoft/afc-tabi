@@ -607,14 +607,12 @@ nav{
  #slider .grup-content .content{
    height:auto;
    max-width :100%;
-   
 }
-
 
 #slider .grup-content .content img
 {
 max-width :100%;
-height:600px;
+height:auto;
 
 }
 
