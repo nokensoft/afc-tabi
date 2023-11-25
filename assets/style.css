@@ -427,6 +427,10 @@ nav {
       flex-direction: column-reverse;
    }
 
+   #beranda .decor-hero-right{
+      display: none;
+   }
+
    .wrapper-nav {
       position: fixed;
       top: 0;
