@@ -497,15 +497,15 @@ nav {
       display: none;
    }
 
-   #cert .img-cert {
+   /* #sertifikat .img-cert {
       display: flex;
       flex-direction: column;
-   }
+   } */
 
-   #cert .img-cert img {
+   #sertifikat img {
       max-width: 100%;
       width: 100%;
-      border-radius: 10px;
+      margin-top: 20px;
       box-shadow: 1px 0 10px 0px var(--Default-color);
    }
 
