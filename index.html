@@ -195,40 +195,21 @@
             <div class="row">
                <div class="grup-content">
                
-                <svg class="nav-btn" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <svg id="left" class="nav-btn" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
                 </svg>
-
-                <div class="content">
-                    <img src="assets/img/TESTIMONI/1.jpg" alt="">
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate officiis nulla qui ullam libero sunt vero nostrum</p> -->
-                </div>
-
-                <div class="content">
-                    <img src="assets/img/TESTIMONI/2.jpg" alt="">
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate officiis nulla qui ullam libero sunt vero nostrum</p> -->
-                </div>
-
-                <div class="content">
-                    <img src="assets/img/TESTIMONI/3.jpg" alt="">
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate officiis nulla qui ullam libero sunt vero nostrum</p> -->
-                </div>
-
-                <div class="content">
-                    <img src="assets/img/TESTIMONI/4.jpg" alt="">
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate officiis nulla qui ullam libero sunt vero nostrum</p> -->
-                </div>
-
-                <div class="content">
-                    <img src="assets/img/TESTIMONI/6.jpg" alt="">
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate officiis nulla qui ullam libero sunt vero nostrum</p> -->
-                </div>
-
                 
-
-                
-                    
-                <svg class="nav-btn" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+           
+                    <div class="content">
+                        <img src="assets/img/TESTIMONI/1.jpg" alt="">
+                        <img src="assets/img/TESTIMONI/2.jpg" alt="">
+                        <img src="assets/img/TESTIMONI/3.jpg" alt="">
+                        <img src="assets/img/TESTIMONI/4.jpg" alt="">
+                        <img src="assets/img/TESTIMONI/6.jpg" alt="">
+                        <img src="assets/img/TESTIMONI/7.jpg" alt="">
+                    </div>
+  
+                <svg id="right" class="nav-btn" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
                 </svg>
                       
@@ -366,6 +347,26 @@
             $(".wrapper-nav").toggleClass("show");
             $(".icon-bar").toggleClass("d-none");
             $(".close").toggleClass("d-none")});
+
+
+            let scrollcontainer = document.querySelector(".gallery");
+            let left = document.getElementById("left");
+            let right = document.getElementById("right");
+
+            scrollcontainer.addEventListener("wheel", (evt) =>{
+                evt.preventDefault();
+                scrollcontainer.scrollLeft += evt.deltaY;
+            });
+
+            left.addEventListener("click", ()=>{
+                scrollcontainer.scrollLeft += 900;
+            });
+
+            right.addEventListener("click", ()=>{
+                scrollcontainer.scrollLeft -= 900;
+            });
+   
+
 
         });
     </script>
