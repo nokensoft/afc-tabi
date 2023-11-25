@@ -4,23 +4,24 @@
    --Default-color: #4b5c6b;
    --Primary-btn-color: #ced8e0;
    --Secondary-color: #e3e8ed;
-   --white-default:#fff;
-   --smoke-color:#f2f5f7;
+   --white-default: #fff;
+   --smoke-color: #f2f5f7;
 
 
 }
 
 :root {
    --font-default: "Poppins", sans-serif;
- }
+}
 
- html,body{
+html,
+body {
    overflow-x: hidden;
-  }
+}
 
- body{
+body {
    font-family: var(--font-default);
- }
+}
 
 /* h1,
 h2,
@@ -32,25 +33,25 @@ h6 {
 } */
 
 /* Style nav */
-nav{
+nav {
    background-color: var(--Primary-btn-color);
    position: fixed;
    width: 100%;
 }
 
-.main-nav .logo h1{
+.main-nav .logo h1 {
    font-size: 20px;
    font-weight: 600;
 }
 
-.main-nav #xcontact{
+.main-nav #xcontact {
    background-color: var(--Primary-btn-color);
    border: 2px solid var(--Default-color);
    padding: 5px;
    border-radius: 5px;
 }
 
-.produk .right-item .row .content{
+.produk .right-item .row .content {
    border-radius: 10px;
    box-shadow: 1px 0px 20px 0px #3333334b;
    margin-top: 20px;
@@ -64,11 +65,11 @@ nav{
 
 
 
-.produk .right-item .row .content img{
-  width: 40px;
+.produk .right-item .row .content img {
+   width: 40px;
 }
 
-.wrapper-nav{
+.wrapper-nav {
    margin: 0;
    padding: 0;
    display: flex;
@@ -76,32 +77,38 @@ nav{
    align-items: center;
    gap: 30px;
    height: 100%;
-  }
+}
 
-  .wrapper-nav li {
+.wrapper-nav li {
    list-style: none;
-  }
+}
 
-  .wrapper-nav a {
-   position: relative; /* Diperlukan untuk menampilkan efek garis bawah */
-   text-decoration: none; /* Hapus garis bawah default dari tautan */
-   color: #333; /* Warna teks tautan */
-   transition: color 0.3s, border-bottom-color 0.3s; /* Efek transisi saat hover */
- }
+.wrapper-nav a {
+   position: relative;
+   /* Diperlukan untuk menampilkan efek garis bawah */
+   text-decoration: none;
+   /* Hapus garis bawah default dari tautan */
+   color: #333;
+   /* Warna teks tautan */
+   transition: color 0.3s, border-bottom-color 0.3s;
+   /* Efek transisi saat hover */
+}
 
-  .wrapper-nav li a{
+.wrapper-nav li a {
    color: #000;
    text-decoration: none;
    font-size: 17px;
-   text-transform:uppercase;
+   text-transform: uppercase;
    font-size: 15px;
-  }
+}
 
-  .wrapper-nav li a:hover{
-   font-weight: 700;
+.wrapper-nav li a:hover {
    border-bottom: 2px solid var(--Default-color);
- 
-  }
+}
+
+.wrapper-nav li a.btn {
+   border-bottom: 0;
+}
 
 
 
@@ -110,35 +117,35 @@ nav{
 
 /* End Nav */
 
-#hero{
+#hero {
    background-color: var(--Secondary-color);
    max-width: 100%;
 }
 
-#hero .left-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100%;
-  
+#hero .left-content {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   height: 100%;
+
 }
 
-#hero .left-content h1{
+#hero .left-content h1 {
    line-height: 57px;
    font-size: 60px;
    font-weight: 900;
    font-family: var(--font-default);
 }
 
-#hero .left-content p{
+#hero .left-content p {
    line-height: 30px;
    font-size: 17px;
    font-weight: 300;
    font-family: var(--font-default);
 }
 
-#hero .left-content .btn-rounded{
+#hero .left-content .btn-rounded {
    width: 52px;
    height: 52px;
    background-color: var(--Primary-color);
@@ -150,7 +157,7 @@ nav{
 }
 
 
-#hero .left-content .btn-hero{
+#hero .left-content .btn-hero {
    display: flex;
    justify-content: flex-start;
    align-items: center;
@@ -158,64 +165,64 @@ nav{
 }
 
 
-#hero .left-content .btn-moni{
+#hero .left-content .btn-moni {
    display: flex;
    justify-content: center;
    align-items: center;
    margin-left: 30px;
 }
 
-#hero .left-content .btn-moni a{
-   background-color: var(--white-default) ;
+#hero .left-content .btn-moni a {
+   background-color: var(--white-default);
    border: 1px solid var(--Default-color);
    padding: 13px;
    text-decoration: none;
    color: var(--Default-color);
    border-radius: 7px;
    font-size: 12px;
-   
+
 }
 
-#hero .left-content .btn-hero .more{
-   background-color: var(--Default-color) ;
+#hero .left-content .btn-hero .more {
+   background-color: var(--Default-color);
    padding: 13px;
    text-decoration: none;
    color: var(--white-default);
    border-radius: 7px;
    font-size: 12px;
-   
+
 }
 
 
-#hero .decor-hero-right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#hero .decor-hero-right {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
 }
 
-#hero .decor-hero-right img{
+#hero .decor-hero-right img {
    margin-top: 70px;
 }
 
-#hero .decor-right{
- position: absolute;
- right: 0;
- top: 0;
- z-index: -999;
+#hero .decor-right {
+   position: absolute;
+   right: 0;
+   top: 0;
+   z-index: -999;
 }
 
 /* style service */
 #subarash .card-service img,
 #utsukushhii .card-service img,
-#sensei .card-service img{
- max-width: 100%;
+#sensei .card-service img {
+   max-width: 100%;
 
 }
 
 #subarash .card-service,
 #utsukushhii .card-service,
-#sensei .card-service{
+#sensei .card-service {
    display: flex;
    flex-direction: column;
    justify-content: left;
@@ -223,95 +230,98 @@ nav{
 
 #subarash .card-service a,
 #utsukushhii .card-service a,
-#sensei .card-service a{
-  color: var(--white-default);
-  padding: 12px;
-  border-radius: 10px;
-  text-decoration: none;
-  font-family: var(--font-default);
-  background-color: var(--Default-color);
-  width: 185px;
-  text-align: center;
+#sensei .card-service a {
+   color: var(--white-default);
+   padding: 12px;
+   border-radius: 10px;
+   text-decoration: none;
+   font-family: var(--font-default);
+   background-color: var(--Default-color);
+   width: 185px;
+   text-align: center;
 }
 
-#cert .img-cert{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+#cert .img-cert {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
-#cert .img-cert img{
+#cert .img-cert img {
    box-shadow: 1px 0px 3px 0px var(--Primary-btn-color);
    margin: 10px;
    max-width: 100%;
    border-radius: 5px;
- }
+}
+
 /* end service */
 
-#subarash{
+#subarash {
    background-color: var(--white-default);
 }
 
 /* utsukushhii style */
-#utsukushhii{
+#utsukushhii {
    background-color: var(--Primary-btn-color);
 }
+
 /* end utsukushhii */
 
 /* sensei style */
-#sensei{
+#sensei {
    background-color: var(--smoke-color);
 }
 
 #slider {
    background-color: var(--Secondary-color);
 }
+
 /* end sensei */
 
-#contact{
+#contact {
    background-color: var(--Secondary-color);
 }
 
-#foother{
+#foother {
    background-color: var(--Primary-btn-color);
 }
 
 
-#slider .grup-content{
+#slider .grup-content {
    display: flex;
    justify-content: center;
    align-items: center;
 }
 
-#slider .grup-content .nav-btn{
+#slider .grup-content .nav-btn {
    width: 30px;
    height: 30px;
    cursor: pointer;
 }
 
-#feedback .content{
+#feedback .content {
    display: flex;
    justify-content: center;
    align-items: start;
 }
 
-#feedback .content img{
+#feedback .content img {
    max-width: 100%;
    height: 190px;
 }
 
-#feedback .content p{
+#feedback .content p {
    text-align: justify;
    margin-left: 12px;
 }
 
 #slider .grup-content .content img,
-#slider .grup-content .content{
+#slider .grup-content .content {
    height: 200px;
    width: 200px;
 }
 
-#feedback .content img{
+#feedback .content img {
    height: 150px;
    width: 150px;
    border-radius: 5px;
@@ -319,66 +329,66 @@ nav{
 
 #slider .grup-content .content img,
 #slider .grup-content .content p,
-#feedback .content{
-  padding: 4px;
+#feedback .content {
+   padding: 4px;
 }
 
 #slider .grup-content .content p,
-#feedback .content p{
-  font-size: 15px;
-  margin-top: 15px;
+#feedback .content p {
+   font-size: 15px;
+   margin-top: 15px;
 
 }
 
-#feedback .content label{
+#feedback .content label {
    margin-left: 12px;
    font-weight: 600;
 }
 
 
 #contact .sub-contact svg,
-#contact #sub-contact svg{
+#contact #sub-contact svg {
    width: 30px;
    height: 30px;
 }
 
-#contact .content{
+#contact .content {
    display: flex;
    justify-content: left;
    align-items: center;
    flex-direction: column;
 }
 
-#contact .sub-contact{
+#contact .sub-contact {
    width: 25%;
    align-items: center;
    margin-left: 50px;
 }
 
-#contact .sub-contact a{
- text-decoration: none;
- font-size: 17px;
- color: var(--Default-color);
+#contact .sub-contact a {
+   text-decoration: none;
+   font-size: 17px;
+   color: var(--Default-color);
 
 }
 
-#contact #sub-contact{
- background-color: var(--Primary-btn-color);
- border-radius: 30px;
- border: 2px solid var(--Default-color);
- padding: 10px;
- justify-content: center;
- align-items: center;
+#contact #sub-contact {
+   background-color: var(--Primary-btn-color);
+   border-radius: 30px;
+   border: 2px solid var(--Default-color);
+   padding: 10px;
+   justify-content: center;
+   align-items: center;
 
 }
 
-#contact #sub-contact a{
- text-decoration: none;
- color: var(--Default-color);
- font-weight: 700;
+#contact #sub-contact a {
+   text-decoration: none;
+   color: var(--Default-color);
+   font-weight: 700;
 }
 
-#foother p{
+#foother p {
    text-align: center;
 }
 
@@ -387,15 +397,18 @@ nav{
    position: fixed;
    bottom: 20px;
    right: 20px;
-   z-index: 999; /* Menempatkan tombol di atas konten lainnya */
+   z-index: 999;
+   /* Menempatkan tombol di atas konten lainnya */
    cursor: pointer;
 }
 
 /* Gaya tambahan untuk menyesuaikan tampilan tombol chat */
 .chat-button svg {
-   width: 50px; /* Sesuaikan ukuran ikon chat */
+   width: 50px;
+   /* Sesuaikan ukuran ikon chat */
    height: auto;
-   border-radius: 50%; /* Agar ikon chat menjadi bundar */
+   border-radius: 50%;
+   /* Agar ikon chat menjadi bundar */
    color: var(--white-default);
    background-color: green;
    padding: 12px;
@@ -409,16 +422,16 @@ nav{
 
 
 
-@media (max-width:992px){
-   #hero .row-reverse{
+@media (max-width:992px) {
+   #hero .row-reverse {
       flex-direction: column-reverse;
    }
 
-   .wrapper-nav{
+   .wrapper-nav {
       position: fixed;
       top: 0;
       width: 100vw;
-      right:-100vw;
+      right: -100vw;
       bottom: 0;
       background-color: #ffffffd7;
       display: flex;
@@ -429,17 +442,17 @@ nav{
       transition: 0.3s;
    }
 
-   .main-nav .wrapper-nav a{
+   .main-nav .wrapper-nav a {
       font-size: 30px;
       font-weight: 500;
       font-family: var(--font-default);
    }
 
-   .wrapper-nav.show{
+   .wrapper-nav.show {
       right: 0;
    }
 
-   ul.wrapper-nav{
+   ul.wrapper-nav {
       flex-direction: column;
    }
 
@@ -454,245 +467,244 @@ nav{
 
    #hero .decor-hero-right {
       display: none;
-  }
+   }
 
-  #hero .left-content{
-   padding-top: 40px;
-  }
-  
-  #hero .decor-hero-right img{
+   #hero .left-content {
+      padding-top: 40px;
+   }
+
+   #hero .decor-hero-right img {
       max-width: 100%;
-      max-height:100%;
+      max-height: 100%;
       margin: 0;
-  }
+   }
 
-  #hero .left-content p{
-     margin-top: 15px;
-  }
+   #hero .left-content p {
+      margin-top: 15px;
+   }
 
-  #hero .btn-hero {
-   padding-bottom: 30px;
+   #hero .btn-hero {
+      padding-bottom: 30px;
+   }
+
+   /* screen mobile service */
+
+   #service .card-left-service {
+      display: none;
+   }
+
+   #cert .img-cert {
+      display: flex;
+      flex-direction: column;
+   }
+
+   #cert .img-cert img {
+      max-width: 100%;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 1px 0 10px 0px var(--Default-color);
+   }
+
+   #subarash .card-service .card-title,
+   #utsukushhii .card-service .card-title,
+   #sensei .card-service .card-title {
+      margin-top: 15px;
+      padding: 0;
+   }
+
+   #subarash .card-service p,
+   #utsukushhii .card-service p,
+   #sensei .card-service p {
+      padding: 0;
+      font-size: 19px;
+   }
+
+   #subarash .card-service h3,
+   #utsukushhii .card-service h3,
+   #sensei .card-service h3 {
+      margin: 0;
+      padding: 0;
+      font-size: 30px;
+   }
+
+   #subarash a,
+   #utsukushhii a,
+   #sensei a {
+      margin: 0;
+      padding: 0;
+      font-size: 17px;
+   }
+
+   #subarash span,
+   #utsukushhii span,
+   #sensei span {
+      font-size: 25px;
+   }
+
+   #utsukushhii .row-reverse {
+      flex-direction: column-reverse;
+      justify-content: center;
+      display: flex;
+   }
+
+   #slider .grup-content p {
+      text-align: left;
+      font-size: 20px
+   }
+
+   #hero .left-content {
+      padding: 0;
+   }
+
+
+   #slider #tm {
+      margin-top: 0px
+   }
+
+
+   #contact .sub-contact {
+      margin: 0;
+      width: 50%;
+      padding: 6px;
+   }
+
+   #slider .grup-content,
+   #feedback .content {
+      display: flex;
+      flex-direction: column;
+      max-width: 100%;
+   }
+
+   #slider .grup-content .content,
+   #feedback .content {
+      background-color: var(--white-default);
+      border-radius: 10px;
+      max-width: 100%;
+      margin: 12px;
+      padding: 12px;
+      box-shadow: 1px 0px 10px 0px #b4b4b498;
+   }
+
+   #slider .grup-content .content {
+      width: 100%;
+   }
+
+   #slider .grup-content .content img,
+   #feedback .content img {
+      border-radius: 10px;
+      max-width: 100%;
+
+      width: 100%;
+   }
+
+   #feedback .content img {
+      height: 100%;
+   }
+
+   #slider .nav-btn {
+      display: none;
+   }
+
+   .produk .right-item .row .content img {
+      width: 200px;
+      max-width: 100%;
+   }
+
+   .produk .right-item .row .content label {
+      font-size: 30px;
+   }
+
+   .chat-button {
+      display: none;
+   }
+
+   #slider .grup-content .content {
+      height: auto;
+      max-width: 100%;
+   }
+
+   #slider .grup-content .content img {
+      max-width: 100%;
+      height: auto;
+
+   }
+
+
+   /* end screen service */
+
 }
 
-/* screen mobile service */
-
-#service .card-left-service{
-   display: none;
+@media(max-width:522px) {
+   #contact .sub-contact {
+      padding: 0;
+   }
 }
 
-#cert .img-cert{
-   display: flex;
-   flex-direction: column;
+@media(max-width:498px) {
+   #contact .sub-contact {
+      padding: 0;
+      width: 60%;
+      margin-left: 50px;
+   }
 }
 
-#cert .img-cert img{
-   max-width: 100%;
-   width: 100%;
-   border-radius: 10px;
-   box-shadow: 1px 0 10px 0px var(--Default-color);
-}
-
-#subarash .card-service .card-title,
-#utsukushhii .card-service .card-title,
-#sensei .card-service .card-title{
-   margin-top:15px;
-   padding:0;
-}
-
-#subarash .card-service p,
-#utsukushhii .card-service p,
-#sensei .card-service p{
-   padding:0;
-   font-size:19px;
-}
-
-#subarash .card-service h3,
-#utsukushhii .card-service h3,
-#sensei .card-service h3{
-   margin:0;
-   padding:0;
-   font-size:30px;
-}
-
-#subarash a,
-#utsukushhii a,
-#sensei a{
-   margin:0;
-   padding:0;
-   font-size:17px;
-}
-
-#subarash span,
-#utsukushhii span,
-#sensei span{
-   font-size :25px;
-}
-
-#utsukushhii .row-reverse{
-   flex-direction: column-reverse;
-   justify-content: center;
-   display: flex;
-}
-
-#slider .grup-content p {
-   text-align:left;
-   font-size:20px
-}
-
-#hero .left-content {
-  padding:0;
-}
-
-
-#slider #tm{
-  margin-top:0px
-}
-
-
-#contact .sub-contact{
-   margin:0;
-   width:50%;
-   padding:6px;
-}
-
-#slider .grup-content,
-#feedback .content{
-   display: flex;
-   flex-direction: column;
-   max-width: 100%;
-}
-
-#slider .grup-content .content,
-#feedback .content{
-   background-color: var(--white-default);
-   border-radius: 10px;
-   max-width: 100%;
-   margin: 12px;
-   padding: 12px;
-   box-shadow: 1px 0px 10px 0px #b4b4b498;
-}
-
-#slider .grup-content .content{
-   width: 100%;
-}
-
-#slider .grup-content .content img,
-#feedback .content img{
-   border-radius: 10px;
-   max-width: 100%;
-
-   width: 100%;
-}
-
-#feedback .content img{
-   height: 100%;
-}
-
-#slider .nav-btn{
-   display: none;
-}
-
-.produk .right-item .row .content img{
-   width: 200px;
-   max-width: 100%;
- }
-
- .produk .right-item .row .content label{
-   font-size: 30px;
- }
-
- .chat-button{
-   display: none;
- }
-
- #slider .grup-content .content{
-   height:auto;
-   max-width :100%;
-}
-
-#slider .grup-content .content img
-{
-max-width :100%;
-height:auto;
-
-}
-
-
-/* end screen service */
-
-}
-
-@media(max-width:522px){
-   #contact .sub-contact{
-      padding:0;
-  }
-}
-
-@media(max-width:498px){
-   #contact .sub-contact{
-      padding:0;
-      width:60%;
-    margin-left:50px;
-  }
-}
-
-@media(max-width:460px){
+@media(max-width:460px) {
    #foother .text-end {
-      font-size:15px;
-  }
-
-  #foother .colum {
-   display:flex;
-   flex-direction:column;
-   justify-content:center;
-   align-items:center;
-   border:1px solid #000;
-   
-}
-
-#foother .colum .col {
-   display:flex;
-   justify-content:center;
-   align-items:center;
-   padding:10px;
-}
-
-#foother .colum .col svg {
-  margin-left:5px;
-}
-
-}
-
-@media (max-width:435px){
-   #hero .left-content .main-text h1{
-         font-size :50px;
+      font-size: 15px;
    }
 
-   #hero .left-content p{
-      margin-top :0;
+   #foother .colum {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #000;
+
+   }
+
+   #foother .colum .col {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+   }
+
+   #foother .colum .col svg {
+      margin-left: 5px;
+   }
+
+}
+
+@media (max-width:435px) {
+   #hero .left-content .main-text h1 {
+      font-size: 50px;
+   }
+
+   #hero .left-content p {
+      margin-top: 0;
    }
 }
 
-@media (max-width:419px){
-   #contact .sub-contact{
-      padding:0;
-      width:70%;
-    margin-left:50px;
-}
-}
-
-@media (max-width:363px){
-   #contact .sub-contact{
-      padding:0;
-      width:80%;
-    margin-left:50px;
-}
+@media (max-width:419px) {
+   #contact .sub-contact {
+      padding: 0;
+      width: 70%;
+      margin-left: 50px;
+   }
 }
 
-@media (max-width:321px){
-   #contact .sub-contact{
-      padding:0;
-      width:90%;
-    margin-left:50px;
+@media (max-width:363px) {
+   #contact .sub-contact {
+      padding: 0;
+      width: 80%;
+      margin-left: 50px;
+   }
 }
+
+@media (max-width:321px) {
+   #contact .sub-contact {
+      padding: 0;
+      width: 90%;
+      margin-left: 50px;
+   }
 }
