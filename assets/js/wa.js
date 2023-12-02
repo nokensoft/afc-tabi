@@ -77,7 +77,7 @@ $('#example').czmChatSupport({
                     offline: "Sedang Offline" /* Custom text or false. To remove, (offline:false) */
                 },
                 link: {
-                    desktop: "https://web.whatsapp.com/send?phone=+6281344228066&text=Hi, Admin!", /* Writing is required */
+                    desktop: "https://web.whatsapp.com/send?phone=+6281344228066&text=Hello, Admin!", /* Writing is required */
                     mobile: "https://wa.me/+6281344228066/?text=Hello, Admin!" /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
                 },
                 onlineDay: {
