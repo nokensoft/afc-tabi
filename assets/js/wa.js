@@ -73,8 +73,8 @@ $('#example').czmChatSupport({
                 text: {
                     title: "Admin", /* Writing is required */
                     description: "+628-134-422-8066", /* Custom text or false. To remove, (description:false) */
-                    online: "Sadang Online", /* Custom text or false. To remove, (online:false) */
-                    offline: "Sedang Offline" /* Custom text or false. To remove, (offline:false) */
+                    online: "Online", /* Custom text or false. To remove, (online:false) */
+                    offline: "Offline" /* Custom text or false. To remove, (offline:false) */
                 },
                 link: {
                     desktop: "https://web.whatsapp.com/send?phone=+6281344228066&text=Hi, Admin!", /* Writing is required */
