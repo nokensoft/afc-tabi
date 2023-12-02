@@ -8,10 +8,10 @@ $('#example').czmChatSupport({
         backgroundColor: "#e60013", /* Html color code */
         effect: 4, /* Button effect. Number between 1 and 7 */
         notificationNumber: "4", /* Custom text or false. To remove, (notificationNumber:false) */
-        speechBubble: "Ada yang perlu torang bantu?", /* To remove, (speechBubble:false) */
+        speechBubble: "Can we help you?", /* To remove, (speechBubble:false) */
         pulseEffect: false, /* To remove, (pulseEffect:false) */
         text: { /* For Button style larger than 1 */
-            title: "Hubungi Admin!", /* Writing is required */
+            title: "Contact the admin!", /* Writing is required */
             description: "Mon-Sat: 10:00/22:00", /* To remove, (description:false) */
             online: "Now Online", /* To remove, (online:false) */
             offline: "I will be back soon" /* To remove, (offline:false) */
@@ -25,8 +25,8 @@ $('#example').czmChatSupport({
         effect: 1, /* Popup opening effect. Number between 1 and 15 */
         header: {
             backgroundColor: "#000", /* Html color code */
-            title: "Perlu Bantun? Silakan Konsultasi", /* Writing is required */
-            description: "Klik salah satu admin di bawah ini" /* To remove, (description:false) */
+            title: "Do you need help? Feel free to consult.", /* Writing is required */
+            description: "Click one of the Admin below." /* To remove, (description:false) */
         },
 
         /* Representative Settings */
@@ -43,8 +43,8 @@ $('#example').czmChatSupport({
                 text: {
                     title: "Samuel Bosawer", /* Writing is required */
                     description: "Team SaCode", /* Custom text or false. To remove, (description:false) */
-                    online: "Sa Online", /* Custom text or false. To remove, (online:false) */
-                    offline: "Sedang Offline" /* Custom text or false. To remove, (offline:false) */
+                    online: "Online", /* Custom text or false. To remove, (online:false) */
+                    offline: "Offline" /* Custom text or false. To remove, (offline:false) */
                 },
                 link: {
                     desktop: "https://web.whatsapp.com/send?phone=+6282198159714&text=Hi, Samuel!", /* Writing is required */
