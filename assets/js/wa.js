@@ -11,7 +11,7 @@ $('#example').czmChatSupport({
         speechBubble: "Can we help you?", /* To remove, (speechBubble:false) */
         pulseEffect: false, /* To remove, (pulseEffect:false) */
         text: { /* For Button style larger than 1 */
-            title: "Contact the admin!", /* Writing is required */
+            title: "Contact Us Now!", /* Writing is required */
             description: "Mon-Sat: 10:00/22:00", /* To remove, (description:false) */
             online: "Now Online", /* To remove, (online:false) */
             offline: "I will be back soon" /* To remove, (offline:false) */
