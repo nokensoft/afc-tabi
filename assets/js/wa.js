@@ -11,7 +11,11 @@ $('#example').czmChatSupport({
         speechBubble: "Can we help you?", /* To remove, (speechBubble:false) */
         pulseEffect: false, /* To remove, (pulseEffect:false) */
         text: { /* For Button style larger than 1 */
+<<<<<<< HEAD
             title: "Contact the admin!", /* Writing is required */
+=======
+            title: "Contact Us Now!", /* Writing is required */
+>>>>>>> 6f2e1966b92e34729b2dbe6410457aa302e23fc2
             description: "Mon-Sat: 10:00/22:00", /* To remove, (description:false) */
             online: "Now Online", /* To remove, (online:false) */
             offline: "I will be back soon" /* To remove, (offline:false) */
@@ -47,8 +51,8 @@ $('#example').czmChatSupport({
                     offline: "Offline" /* Custom text or false. To remove, (offline:false) */
                 },
                 link: {
-                    desktop: "https://web.whatsapp.com/send?phone=+6282198159714&text=Hi, Samuel!", /* Writing is required */
-                    mobile: "https://wa.me/+6282198159714/?text=Hello, Samuel!" /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
+                    desktop: "https://web.whatsapp.com/send?phone=+6281344228066&text=Hello, Admin!", /* Writing is required */
+                    mobile: "https://wa.me/+6281344228066/?text=Hello, Admin!" /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
                 },
                 onlineDay: {
                     /* Change the day you are offline like this. (sunday:false) */
@@ -77,7 +81,7 @@ $('#example').czmChatSupport({
                     offline: "Sedang Offline" /* Custom text or false. To remove, (offline:false) */
                 },
                 link: {
-                    desktop: "https://web.whatsapp.com/send?phone=+6281344228066&text=Hi, Admin!", /* Writing is required */
+                    desktop: "https://web.whatsapp.com/send?phone=+6281344228066&text=Hello, Admin!", /* Writing is required */
                     mobile: "https://wa.me/+6281344228066/?text=Hello, Admin!" /* If it is hidden desktop link will be valid. To remove, (mobile:false) */
                 },
                 onlineDay: {
